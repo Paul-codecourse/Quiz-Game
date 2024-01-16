@@ -45,3 +45,4 @@ const questions = [
   }
   
  // Set button event to run startQuiz()
+ //const element = document.getElementById("")
