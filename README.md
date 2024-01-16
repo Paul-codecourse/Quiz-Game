@@ -13,6 +13,8 @@ The quiz asks questions relating to coding.
 
 ![Screenshot of the app ](https://paul-codecourse.github.io/WK6HWK-Quiz-Game/assets/WK6_Quiz_Screenshot.jpg)
 
+Additional functionality will be added soon and I hope to be caught up by the end of the week.
+
 ## Credits
 
 N/A
