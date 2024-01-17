@@ -17,26 +17,17 @@
       }
     }
   // Store the score to local storage
-    
+  const storedScore = localStorage.getItem('quizScore');
+  if (storedScore !== null) {
+    if (storedScore < score) {
   localStorage.setItem('quizScore', score);
-
-
+    } 
     // Display the final score
     alert(`Quiz completed!\nYour score: ${score} out of ${questions.length}`);
   }
+}
   
-    // Display the score on the high score page
-    // Retrieve the score from local storage and display it on the HTML page
-   function displayScore() {
-      const storedScore = localStorage.getItem('quizScore');
-      const scoreDisplay = document.getElementById('scoreDisplay');
-   //need to edit and add watershed mark for high score as well as interval to time and change scoring algorithm to be time based
-      if (storedScore !== null) {
-        scoreDisplay.textContent = `Your previous score: ${storedScore} out of ${questions.length}`;
-        } else {
-        scoreDisplay.textContent = 'No previous score available.';
-        }
-  }
+    
   
 
  // Set button event to run startQuiz()
